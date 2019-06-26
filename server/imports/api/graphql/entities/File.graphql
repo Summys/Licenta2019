@@ -1,0 +1,7 @@
+type File {
+    _id: ID!
+    path: String!
+    filename: String!
+    mimetype: String!
+    createdAt: Date
+}

@@ -1,0 +1,5 @@
+.deploy/local.json
+node_modules
+\.idea/
+.idea
+package-lock.json

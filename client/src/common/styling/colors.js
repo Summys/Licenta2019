@@ -1,0 +1,12 @@
+export default {
+  WHITE: "#FFFFFF",
+  SEARCH_BACKGROUND: "#F4F4F4",
+  GREEN: "#32CD32",
+  BLUE: "#2292ED",
+  BLACK: "#2D2F3B",
+  SHADOW: "#343642",
+  RED: "#FF6347",
+  LIGHT_GREY: "#F2F3F7",
+  ORANGE: "#FFB200",
+  DARK_GREY: "#9FA0B3"
+};

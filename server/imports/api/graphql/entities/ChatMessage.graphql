@@ -1,0 +1,8 @@
+type ChatMessage {
+    _id: ID!,
+    userId: ID!,
+    user: User,
+    chatRoomId: ID!,
+    text: String,
+    createdAt: Date
+}

@@ -1,0 +1,26 @@
+{
+  "MAIL_URL": "",
+  "APP_ENV": "live",
+  "public": {
+    "AWS": {
+      "url": ""
+    },
+    "environment": "app"
+  },
+  "private": {
+    "redis": {
+      "host": "3.122.246.210",
+      "port": "6379",
+      "password": "gmN4XVym8aoli9yy5pWtd7hV7MMqX5RRM4ksG3lSq7HXtmecAQqsABOXUgbIilvFmjXMBKkFDm/hMXyQ"
+    },
+    "AWS": {
+      "key": "",
+      "secret": "",
+      "bucket": "",
+      "region": "",
+      "url": ""
+    },
+    "sendEmail": false
+  },
+  "ROOT_URL": "https://retrospect.space/"
+}

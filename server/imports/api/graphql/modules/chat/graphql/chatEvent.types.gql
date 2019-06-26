@@ -1,0 +1,25 @@
+type ChatRootEvent {
+    payload: [ChatRoom]
+}
+
+type ChatNewRoomEvent {
+    payload: ChatRoom
+}
+
+type ChatNewMessageEvent {
+    payload: ChatMessage
+}
+
+type ChatRoomUpdatedEvent {
+    payload: ChatRoom
+}
+
+type ChatRoomRemovedEvent {
+    payload: ID
+}
+
+union ChatEventType = ChatRootEvent
+    | ChatNewRoomEvent
+    | ChatNewMessageEvent
+    | ChatRoomUpdatedEvent
+    | ChatRoomRemovedEvent

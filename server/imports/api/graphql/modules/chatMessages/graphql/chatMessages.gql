@@ -1,0 +1,11 @@
+type Query {
+    getChatRoomMessageList(chatRoomId: ID!): [ChatMessage]
+}
+type Mutation {
+    createMessage(input: CreateMessageMutationInput!): ChatMessage
+}
+
+input CreateMessageMutationInput {
+   chatRoomId: ID!
+   text: String!
+}

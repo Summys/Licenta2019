@@ -1,0 +1,6 @@
+  type Query {
+    uploads(filters: JSON, options: JSON): [File]
+  }
+  type Mutation {
+    singleUpload(file: Upload!): File!
+  }

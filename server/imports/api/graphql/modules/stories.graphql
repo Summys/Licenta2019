@@ -1,0 +1,19 @@
+type Query {
+    stories(filters: JSON, options: JSON): [Story]
+}
+
+type Mutation {
+  storyCreate(data: StoryCreateInput): Story
+  storyEdit(storyId: String, data: StoryCreateInput): Story
+  storyDelete(storyId: String): StoryDeleteSuccess
+}
+
+input StoryCreateInput {
+  name: String,
+  description: String,
+  isActive: Boolean
+}
+
+type StoryDeleteSuccess {
+  _id: String
+}

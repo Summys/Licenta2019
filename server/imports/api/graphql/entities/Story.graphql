@@ -1,0 +1,7 @@
+type Story {
+    _id: ID!
+    name: String
+    description: String
+    isActive: Boolean
+    createdAt: Date
+}

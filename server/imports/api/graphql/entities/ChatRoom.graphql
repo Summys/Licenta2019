@@ -1,0 +1,12 @@
+type ChatRoom {
+    _id: ID!,
+    createdAt: Date
+    messages: [ChatMessage]
+    metaData: ChatRoomMetaData
+}
+
+type ChatRoomMetaData {
+    lastMessage: ChatMessage
+    missedMessageCount: Int
+    partner: User
+}

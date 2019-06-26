@@ -1,0 +1,21 @@
+type User {
+    _id: ID!
+    emails: [Emails]
+    profile: Profile
+    roles: [String]
+    createdAt: Date
+    fullName: String
+    username: String
+}
+
+type Emails {
+    address: String!
+    verified: Boolean!
+}
+
+type Profile {
+    firstName: String!
+    lastName: String!
+    phone: Float
+}
+

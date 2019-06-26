@@ -1,0 +1,9 @@
+type Query {
+    getChatRoom(chatRoomId: ID!): ChatRoom
+}
+
+type Mutation {
+    createOneToOneChatRoom(targetUserId: ID!): ChatRoom
+    setNewChatRoomViewDate(chatRoomId: ID!): ChatRoom
+    setNewChatRoomViewStartDate(chatRoomId: ID!): ChatRoom
+}

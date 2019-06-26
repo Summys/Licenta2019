@@ -1,0 +1,21 @@
+{
+  "MAIL_URL": "",
+  "APP_ENV": "dev",
+  "public": {
+    "AWS": {
+      "url": ""
+    },
+    "environment": "app"
+  },
+  "private": {
+    "AWS": {
+      "key": "",
+      "secret": "",
+      "bucket": "",
+      "region": "",
+      "url": ""
+    },
+    "sendEmail": false
+  },
+  "ROOT_URL": "http://localhost:3000/"
+}
