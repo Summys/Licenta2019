@@ -30,7 +30,7 @@
     "lodash": "^4.17.11",
     "meteor-apollo-accounts": "^2.0.3",
     "moment": "^2.24.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "react": "16.8.3",
     "react-apollo": "^2.5.6",
     "react-native": "0.59.8",
