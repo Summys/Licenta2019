@@ -29,7 +29,7 @@
     "graphql-tag": "^2.10.1",
     "lodash": "^4.17.11",
     "meteor-apollo-accounts": "^2.0.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-fetch": "^2.6.0",
     "react": "16.8.3",
     "react-apollo": "^2.5.6",
